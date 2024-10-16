@@ -1,0 +1,55 @@
+nav{
+
+    color:black ; 
+    background-color : pink ;
+    display: flex;
+    gap : 10em ; 
+}
+
+body 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+article {
+
+    background-color: aqua;
+    cursor: pointer;
+    scale: len 2 ; 
+}
+
+h1 {
+   color:blueviolet red ; 
+   max-width: fit-content;
+   }
+
+   .positive 
+   {
+        background-color:  green ;
+        border:  2px yellowgreen;
+   }
+
+   .negative 
+   {
+     background-color:  brown;
+     
+   }
+
+   img
+   {
+        border: 5px blue;
+        border-radius:  50px ;
+        width:  40% ; height: 40%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+   }
+
+   img :hover
+   {
+        scale: len 4 ; 
+        cursor: pointer;
+   }
